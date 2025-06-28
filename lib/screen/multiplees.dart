@@ -31,7 +31,7 @@ class SubCategoryScreen extends StatelessWidget {
                 ),
               ),
               onChanged: (value) {
-                // Optional: filter logic
+                //remaining logic 
               },
             ),
             const SizedBox(height: 16),
@@ -46,7 +46,9 @@ class SubCategoryScreen extends StatelessWidget {
                 ),
                 itemBuilder: (context, index) {
                   return GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      //remaining
+                    },
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
