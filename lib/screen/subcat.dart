@@ -9,7 +9,7 @@ class Subcat extends StatefulWidget {
 }
 
 class _SubcatState extends State<Subcat> {
-  // Dummy data — you'll later fetch/insert from database
+ 
   final List<Map<String, dynamic>> stockData = [
     {
       'size': 'S',
